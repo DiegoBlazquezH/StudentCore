@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Business.Logic;
-using Common.Logic.Log;
+using Common.Logic.Logger;
 using Dao.DataBaseContext;
 using Dao.Repository;
 using Microsoft.AspNetCore.Builder;
@@ -28,7 +28,7 @@ namespace WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<Common.Logic.Log.ILogger, Log4NetAdapter>();
+            services.AddTransient<Common.Logic.Logger.ILogger, Log4NetAdapter>();
             services.AddDbContext<StudentContext>();
             services.AddTransient<IRepository, RepositorySql>();
             services.AddTransient<IBusiness, StudentBL>();

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Common.Logic.Log;
+using Common.Logic.Logger;
 using Common.Logic.Models;
 using Dao.DataBaseContext;
 
@@ -44,12 +44,7 @@ namespace Dao.Repository
         {
             using (var context = this.studentContext)
             {
-                var result = new List<Student>();
-                foreach (var student in context.Students)
-                {
-                    result.Add(student);
-                }
-                return result;
+                return context.Students.ToList<Student>();
             }
         }
 

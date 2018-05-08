@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao", "Dao\Dao.csproj", "{19135800-1217-459B-AE83-4673C0A9B36F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dao", "Dao\Dao.csproj", "{19135800-1217-459B-AE83-4673C0A9B36F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logic", "Common.Logic\Common.Logic.csproj", "{C05B7CE1-FD3C-4A79-8A56-D10ED7F097C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Logic", "Common.Logic\Common.Logic.csproj", "{C05B7CE1-FD3C-4A79-8A56-D10ED7F097C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Logic", "Business.Logic\Business.Logic.csproj", "{2460DA7C-F48F-42AF-88E9-D1F12C3A4E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Logic", "Business.Logic\Business.Logic.csproj", "{2460DA7C-F48F-42AF-88E9-D1F12C3A4E5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{E4E20FA9-CBEA-4411-B878-26B52CC88F09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{E4E20FA9-CBEA-4411-B878-26B52CC88F09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E452BC99-73E2-47BD-850D-784A48BE2F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsIntegracion", "TestsIntegracion\TestsIntegracion.csproj", "{F791C42D-9929-4CB8-AA4F-985490BA33F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{E4E20FA9-CBEA-4411-B878-26B52CC88F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E20FA9-CBEA-4411-B878-26B52CC88F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E20FA9-CBEA-4411-B878-26B52CC88F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F791C42D-9929-4CB8-AA4F-985490BA33F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F791C42D-9929-4CB8-AA4F-985490BA33F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F791C42D-9929-4CB8-AA4F-985490BA33F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F791C42D-9929-4CB8-AA4F-985490BA33F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F791C42D-9929-4CB8-AA4F-985490BA33F9} = {E452BC99-73E2-47BD-850D-784A48BE2F0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1176F34-1482-4389-888B-2CEEF2F52C74}
