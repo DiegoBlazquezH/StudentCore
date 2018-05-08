@@ -1,0 +1,12 @@
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\bin\Debug\netcoreapp2.0\Business.Logic.deps.json
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\bin\Debug\netcoreapp2.0\Business.Logic.dll
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\bin\Debug\netcoreapp2.0\Business.Logic.pdb
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\bin\Debug\netcoreapp2.0\Common.Logic.dll
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\bin\Debug\netcoreapp2.0\Common.Logic.pdb
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\obj\Debug\netcoreapp2.0\Business.Logic.csprojResolveAssemblyReference.cache
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\obj\Debug\netcoreapp2.0\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\obj\Debug\netcoreapp2.0\Business.Logic.AssemblyInfoInputs.cache
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\obj\Debug\netcoreapp2.0\Business.Logic.AssemblyInfo.cs
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\obj\Debug\netcoreapp2.0\Business.Logic.csproj.CopyComplete
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\obj\Debug\netcoreapp2.0\Business.Logic.dll
+C:\Users\diego.blazquez\Desktop\Repositorios Github\StudentCore\StudentCoreFrontend\Business.Logic\obj\Debug\netcoreapp2.0\Business.Logic.pdb
