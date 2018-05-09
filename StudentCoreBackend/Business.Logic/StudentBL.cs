@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Common.Logic.Log;
+using Common.Logic.Logger;
 using Common.Logic.Models;
 using Dao.Repository;
 
